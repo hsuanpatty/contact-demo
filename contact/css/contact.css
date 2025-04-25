@@ -52,7 +52,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     flex: 0 0 auto;
     width: 100%;
-    padding: 30px 10px 20px;
+    padding: 20px 10px;
     overflow: hidden;
 }
 
@@ -227,8 +227,8 @@
 @media (min-width: 768px) {
     .contact_us_box_left,
     .contact_us_box_right {
-        width: 50%;
-        padding: 20px 0 20px 25px;
+        width: 85%;
+        padding: 20px 0;
         margin: auto;
     }
 
@@ -247,11 +247,6 @@
 
     .contact_us_border {
         padding: 20px 10px;
-        display: block;
-    }
-
-    .contact_us_50 {
-        width:100%;
     }
 
     .info-icon {
@@ -266,8 +261,19 @@
 @media (min-width: 992px) { 
     .contact_us_box_left,
     .contact_us_box_right {
-        padding: 20px 15px;
+        width: 38%;
+        padding: 20px 0;
+        justify-content: left;
     }
+
+    .contact_us_50 {
+        width:100%;
+    }
+
+    .contact_us_border {
+        display: block;
+    }
+
 }
 
 
@@ -275,7 +281,7 @@
 
     .contact_us_box_left,
     .contact_us_box_right {
-        width: 33.3333333333%;
+        width: 33.3333333%;
         padding: 20px 0 20px 25px;
 
         --bs-gutter-x: 1.5rem;
